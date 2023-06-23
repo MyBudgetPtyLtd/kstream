@@ -2,8 +2,8 @@ package processors
 
 import (
 	"context"
-	"github.com/gmbyapa/kstream/v2/streams/stores"
-	"github.com/gmbyapa/kstream/v2/streams/topology"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/stores"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/topology"
 )
 
 type AggregatorFunc func(ctx context.Context, key, value, previous interface{}) (newAgg interface{}, err error)

@@ -2,10 +2,10 @@ package state_stores
 
 import (
 	"fmt"
-	"github.com/gmbyapa/kstream/v2/pkg/errors"
-	"github.com/gmbyapa/kstream/v2/streams/encoding"
-	"github.com/gmbyapa/kstream/v2/streams/stores"
-	"github.com/gmbyapa/kstream/v2/streams/topology"
+	"github.com/MyBudgetPtyLtd/kstream/v2/pkg/errors"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/encoding"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/stores"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/topology"
 )
 
 type StoreBuilderOption func(builder *stateStoreBuilder)

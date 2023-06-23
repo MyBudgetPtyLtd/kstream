@@ -10,10 +10,10 @@ package librd
 import (
 	"context"
 	"fmt"
+	"github.com/MyBudgetPtyLtd/kstream/v2/kafka"
+	"github.com/MyBudgetPtyLtd/kstream/v2/kafka/adaptors/sarama"
+	"github.com/MyBudgetPtyLtd/kstream/v2/pkg/errors"
 	librdKafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/gmbyapa/kstream/v2/kafka"
-	"github.com/gmbyapa/kstream/v2/kafka/adaptors/sarama"
-	"github.com/gmbyapa/kstream/v2/pkg/errors"
 	"github.com/tryfix/log"
 	"github.com/tryfix/metrics"
 	"sync"

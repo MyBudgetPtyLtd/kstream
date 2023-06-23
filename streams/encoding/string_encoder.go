@@ -2,7 +2,7 @@ package encoding
 
 import (
 	"fmt"
-	"github.com/gmbyapa/kstream/v2/pkg/errors"
+	"github.com/MyBudgetPtyLtd/kstream/v2/pkg/errors"
 	"reflect"
 )
 

@@ -1,7 +1,7 @@
 package stores
 
 import (
-	"github.com/gmbyapa/kstream/v2/streams/encoding"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/encoding"
 )
 
 type StoreBuilder interface {

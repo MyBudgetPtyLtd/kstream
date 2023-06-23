@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gmbyapa/kstream/v2/pkg/errors"
-	"github.com/gmbyapa/kstream/v2/streams/topology"
+	"github.com/MyBudgetPtyLtd/kstream/v2/pkg/errors"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/topology"
 )
 
 type loggableStateStoreInstance struct {
