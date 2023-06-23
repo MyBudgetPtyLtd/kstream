@@ -1,10 +1,10 @@
 package streams
 
 import (
-	"github.com/gmbyapa/kstream/v2/streams/encoding"
-	"github.com/gmbyapa/kstream/v2/streams/processors"
-	"github.com/gmbyapa/kstream/v2/streams/state_stores"
-	"github.com/gmbyapa/kstream/v2/streams/topology"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/encoding"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/processors"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/state_stores"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/topology"
 )
 
 type StreamOptions struct {

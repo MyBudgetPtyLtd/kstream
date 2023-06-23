@@ -2,8 +2,8 @@ package stores
 
 import (
 	"fmt"
-	"github.com/gmbyapa/kstream/v2/pkg/errors"
-	"github.com/gmbyapa/kstream/v2/streams/encoding"
+	"github.com/MyBudgetPtyLtd/kstream/v2/pkg/errors"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/encoding"
 	"github.com/tryfix/log"
 	"github.com/tryfix/metrics"
 	"sync"

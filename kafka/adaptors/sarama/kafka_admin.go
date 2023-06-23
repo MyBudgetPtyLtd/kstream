@@ -9,9 +9,9 @@ package sarama
 
 import (
 	"fmt"
+	"github.com/MyBudgetPtyLtd/kstream/v2/kafka"
+	"github.com/MyBudgetPtyLtd/kstream/v2/pkg/errors"
 	"github.com/Shopify/sarama"
-	"github.com/gmbyapa/kstream/v2/kafka"
-	"github.com/gmbyapa/kstream/v2/pkg/errors"
 	"github.com/tryfix/log"
 	"net"
 	"sync"

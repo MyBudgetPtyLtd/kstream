@@ -2,8 +2,8 @@ package librd
 
 import (
 	"fmt"
+	"github.com/MyBudgetPtyLtd/kstream/v2/kafka"
 	librdKafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/gmbyapa/kstream/v2/kafka"
 	"github.com/tryfix/log"
 	"github.com/tryfix/metrics"
 	"sync"

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/gmbyapa/kstream/v2/pkg/errors"
+	"github.com/MyBudgetPtyLtd/kstream/v2/pkg/errors"
 )
 
 type IntEncoder struct{}

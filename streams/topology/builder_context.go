@@ -2,9 +2,9 @@ package topology
 
 import (
 	"context"
-	"github.com/gmbyapa/kstream/v2/kafka"
-	"github.com/gmbyapa/kstream/v2/streams/encoding"
-	"github.com/gmbyapa/kstream/v2/streams/stores"
+	"github.com/MyBudgetPtyLtd/kstream/v2/kafka"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/encoding"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/stores"
 	"github.com/tryfix/log"
 	"github.com/tryfix/metrics"
 )

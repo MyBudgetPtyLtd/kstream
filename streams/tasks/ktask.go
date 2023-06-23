@@ -3,13 +3,13 @@ package tasks
 import (
 	"context"
 	"fmt"
-	"github.com/gmbyapa/kstream/v2/pkg/errors"
+	"github.com/MyBudgetPtyLtd/kstream/v2/pkg/errors"
 	"sync"
 	"time"
 
-	"github.com/gmbyapa/kstream/v2/kafka"
-	"github.com/gmbyapa/kstream/v2/pkg/async"
-	"github.com/gmbyapa/kstream/v2/streams/topology"
+	"github.com/MyBudgetPtyLtd/kstream/v2/kafka"
+	"github.com/MyBudgetPtyLtd/kstream/v2/pkg/async"
+	"github.com/MyBudgetPtyLtd/kstream/v2/streams/topology"
 	"github.com/tryfix/log"
 	"github.com/tryfix/metrics"
 )

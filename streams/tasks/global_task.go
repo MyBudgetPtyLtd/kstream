@@ -2,8 +2,8 @@ package tasks
 
 import (
 	"context"
-	"github.com/gmbyapa/kstream/v2/kafka"
-	"github.com/gmbyapa/kstream/v2/pkg/async"
+	"github.com/MyBudgetPtyLtd/kstream/v2/kafka"
+	"github.com/MyBudgetPtyLtd/kstream/v2/pkg/async"
 )
 
 type globalTask struct {

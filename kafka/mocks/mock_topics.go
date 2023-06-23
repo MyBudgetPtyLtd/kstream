@@ -2,8 +2,8 @@ package mocks
 
 import (
 	"errors"
+	"github.com/MyBudgetPtyLtd/kstream/v2/kafka"
 	"github.com/Shopify/sarama"
-	"github.com/gmbyapa/kstream/v2/kafka"
 	"sync"
 )
 
